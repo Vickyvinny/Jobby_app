@@ -1,0 +1,16 @@
+.filter-heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.label-heading {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.list-items {
+  margin: 10px 0px;
+}
+hr {
+  border: 1px solid #b6c5ff;
+  margin: 15px 0px;
+}

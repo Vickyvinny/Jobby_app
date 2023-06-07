@@ -1,0 +1,15 @@
+.skill-list-item {
+  margin: 30px 30px;
+  display: flex;
+}
+.skill-name {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.skills-image {
+  width: 80px;
+  height: 80px;
+}

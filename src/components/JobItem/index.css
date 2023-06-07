@@ -1,0 +1,114 @@
+.card-container {
+  background-color: #272727;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 65vw;
+}
+.card-heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 15px;
+}
+.star {
+  color: #fbbf24;
+  font-size: 21px;
+  margin-top: 16px;
+}
+.rating {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-left: 5px;
+}
+.heading-container {
+  margin-left: 15px;
+}
+.star-container {
+  display: flex;
+}
+.image-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+}
+.icon-style {
+  color: #ffff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 767px) {
+  .details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .package {
+    margin-left: 20px;
+  }
+}
+.name-style {
+  color: #cbd5e1;
+  font-weight: 450;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-right: 12px;
+}
+.package {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+.card-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 10px;
+}
+.card-description-heading {
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #ffff;
+  font-size: 18px;
+  margin-left: 10px;
+}
+@media screen and (max-width: 767px) {
+  .card-heading {
+    font-size: 15px;
+  }
+}
+.company-image {
+  width: 85px;
+  height: 85px;
+}
+.icons-container {
+  display: flex;
+}
+.items-container {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .items-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .company-image {
+    width: 70px;
+    height: 70px;
+  }
+}
+.details-container {
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+  margin: 0px 10px;
+}
+.nav-link-card {
+  text-decoration: none;
+}

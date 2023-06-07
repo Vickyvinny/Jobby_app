@@ -1,0 +1,90 @@
+.jobs-section-container {
+  background-color: #000000;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  padding: 25px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.failure-heading {
+  color: #ffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+.failure-description {
+  color: #ffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.retry-button {
+  width: 100px;
+  height: 35px;
+  background-color: #4f46e5;
+  border-radius: 5px;
+  border: none;
+  color: #ffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.jobs-container {
+  margin-left: 30px;
+}
+.button {
+  width: 50px;
+  height: 39px;
+
+  border: none;
+  border-top: 1px solid #b6c5ff;
+  border-bottom: 1px solid #b6c5ff;
+  border-right: 1px solid #b6c5ff;
+  border-left: none;
+  background-color: #272727;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .search-input {
+    width: 38%;
+  }
+}
+.search-input {
+  margin-left: 50px;
+  width: 30%;
+  height: 40px;
+  outline: none;
+  border-top: 1px solid #b6c5ff;
+  border-bottom: 1px solid #b6c5ff;
+  border-left: 1px solid #b6c5ff;
+  border-right: none;
+  color: #ffffff;
+  background-color: transparent;
+}
+@media screen and (max-width: 767px) {
+  .jobs-section-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+ul {
+  list-style-type: none;
+}
+.search-container {
+  margin-bottom: 30px;
+  margin-left: -8px;
+}

@@ -1,0 +1,164 @@
+.job-item-bg {
+  background-color: #000000;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-card-container {
+  background-color: #272727;
+  background-size: cover;
+  width: 80%;
+  min-height: 100vh;
+  margin-top: 30px;
+  padding: 20px;
+}
+.item-card-heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 15px;
+}
+.item-star {
+  color: #fbbf24;
+  font-size: 21px;
+  margin-top: 16px;
+}
+.item-rating {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-left: 5px;
+}
+.item-heading-container {
+  margin-left: 15px;
+}
+.item-star-container {
+  display: flex;
+}
+.item-image-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+}
+.item-icon-style {
+  color: #ffff;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.item-name-style {
+  color: #cbd5e1;
+  font-weight: 450;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-right: 25px;
+}
+.item-package {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+.item-card-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+.item-card-description-heading {
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #ffff;
+  font-size: 24px;
+  margin-left: 10px;
+  line-height: 2;
+}
+
+.item-company-image {
+  width: 85px;
+  height: 85px;
+}
+.item-icons-container {
+  display: flex;
+}
+.list-items-container {
+  display: flex;
+}
+
+.item-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+  margin: 0px 10px;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.company-container {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .company-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.similar-card-main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-card-main-heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.job-item-loader {
+  background-color: #272727;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.job-item-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  background-size: cover;
+  min-height: 100vh;
+}
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+.visit-link {
+  color: #6366f1;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.link-icon {
+  font-size: 18px;
+  margin-left: 5px;
+}
+.link-button {
+  background-color: transparent;
+  border: none;
+}
